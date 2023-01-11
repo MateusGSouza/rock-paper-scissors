@@ -17,30 +17,23 @@ function singleRound(playerSelection, computerSelection) {
     switch (playerSelection) {
         case (playerSelection == computerSelection):
             return "Draw"
-            break;
 
         case (playerSelection == "rock" && computerSelection == "scissors"):
             return "Player wins! Rock beats scissors!"
-            break;
 
         case (playerSelection == "rock" && computerSelection == "paper"):
             return "Computer wins! Paper beats rock!"
-            break;
 
         case (playerSelection == "paper" && computerSelection == "rock"):
             return "Player wins! Paper beats rock!"
-            break;
 
         case (playerSelection == "paper" && computerSelection == "scissors"):
             return "Computer wins! Scissors beats paper!"
-            break;
 
         case (playerSelection == "scissors" && computerSelection == "paper"):
             return "Player wins! Scissors beats paper!"
-            break;
 
         case (playerSelection == "scissors" && computerSelection == "rock"):
             return "Computer wins! Rock beats scissors!"
-            break;
     }
 }
